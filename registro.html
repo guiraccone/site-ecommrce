@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce - Registro de Conta</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600&family=Roboto+Mono&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo-image">
+                <a class="navbar-brand" href="./homepage.html">
+                    <img src="./img/LOGO.png" class="img-fluid" alt="logo connect">
+                </a>
+            </div>
+            <ul>
+                <li><a href="./logar.html">Login</a></li>
+                <li><a href="./registro.html">Registro</a></li>
+                <div>
+                    <li><a href="./carrinho.html"><img src="./img/2168274.png" id="carrinho"></a></li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="page">
+
+        <header id="header-registro">
+            <h2>Registre-se aqui</h2>
+        </header>
+        <form id="registro" action="./usuario_cadastrado.html">
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>Informações pessoais</legend>
+                    <div class="form-registro1">
+                        <div id="lado1">
+
+                            <div class="input-wrapper">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" required />
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="input-cpf">CPF</label>
+                                <input type="text" id="input-cpf" minlength="11" required />
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="input-telefone">Telefone de Contato</label>
+                                <input type="text" id="input-telefone" minlength="8" required />
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="input-nascimento">Data de nascimento</label>
+                                <input type="date" id="input-nascimento" required />
+                            </div>
+                        </div>
+
+                        <div id="lado2">
+
+                            <div class="input-wrapper">
+                                <label for="input-cep">CEP</label>
+                                <input type="text" id="input-cep" required />
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="input-rua">Rua</label>
+                                <input type="text" id="input-rua" required />
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="input-bairro">Bairro</label>
+                                <input type="text" id="input-bairro" required />
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="input-casa">Número de Residência</label>
+                                <input type="text" id="input-casa" required />
+                            </div>
+                        </div>
+                    </div>
+
+            </fieldset>
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>Informações da Conta</legend>
+                    <div class="input-wrapper">
+                        <label for="input-email">Email</label>
+                        <input type="text" id="input-email" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="input-senha">Senha <span>(mínimo de 8 caracteres)</span></label>
+                        <input type="password" id="input-senha" minlength="8" required />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="input-confsenha">Confirmação de Senha</label>
+                        <input type="password" id="input-confsenha" required />
+                    </div>
+                </div>
+
+            </fieldset>
+            <div class="botao">
+                <button id="input-salvar" type="submit">Registrar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <br>
+        <h4>fale conosco no instagram @e-commerce <br>Fone: (49) 9814-9384</h4>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce - Carrinho de Compras</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600&family=Roboto+Mono&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo-image">
+                <a class="navbar-brand" href="./homepage.html">
+                    <img src="./img/LOGO.png" class="img-fluid" alt="logo connect">
+                </a>
+            </div>
+            <ul>
+                <li><a href="./logar.html">Login</a></li>
+                <li><a href="./registro.html">Registro</a></li>
+                <div>
+                    <li><a href="./carrinho.html"><img src="./img/2168274.png" id="carrinho"></a></li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="page">
+        <header class="titulo-carrinho">
+            <h2>Carrinho de Compras</h2>
+        </header>
+        <main id="pag-carrinho">
+            <section id="secao-produtos-carrinho">
+                <div class="produtos-carrinho">
+                    <div class="produto-carrinho">
+                        <img src="./img/Computador.png">
+                        <div class="desc-carrinho">
+
+                            <div id="titulo-preco-carrinho">
+                                <h3>Computador Gamer</h3>
+                                <p>R$ 4.956,00</p>
+                            </div>
+
+                            <div id="produto-qntd">
+
+                                <h4>Quantidade</h4>
+                                <h2 id="num-produto">1</h2>
+                                <div class="botoes-produto">
+
+                                    <button id="botao-acrescentar">+</button>
+                                    <button id="botao-diminuir">-</button>
+                                    <button id="botao-excluir">X</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos-carrinho">
+                        <div class="produto-carrinho">
+                            <img src="./img/Laptop.png">
+                            <div class="desc-carrinho">
+
+                                <div id="titulo-preco-carrinho">
+                                    <h3>Laptop Lenovo</h3>
+                                    <p>R$ 3.556,00
+
+                                    </p>
+                                </div>
+                                <div id="produto-qntd">
+                                    <h4>Quantidade</h4>
+                                    <h2 id="num-produto">1</h2>
+                                    <div class="botoes-produto">
+                                        <button id="botao-acrescentar">+</button>
+                                        <button id="botao-diminuir">-</button>
+                                        <button id="botao-excluir">X</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            </section>
+            <section id="secao-valor-total">
+                <h3>Valor Total</h3>
+                <h5 id="valor-total-carrinho">R$ 8.512,00</h5>
+                <a href="./homepage.html">
+                    <button id="botao-continuar">Comprar</button>
+                </a>
+
+
+            </section>
+
+        </main>
+        <a href="./homepage.html">
+            <button id="botao-voltar" class="botao-hover">Voltar à loja</button>
+        </a>
+    </div>
+    <footer>
+        <br>
+        <h4>fale conosco no instagram @e-commerce <br>Fone: (49) 9814-9384</h4>
+    </footer>
+</body>
+
+</html>

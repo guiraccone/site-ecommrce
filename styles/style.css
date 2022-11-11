@@ -1,0 +1,832 @@
+/*---------------------------------------------------CSS UNIVERSAL--------------------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    padding: 13rem;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    background-color: rgb(228, 228, 228);
+
+}
+
+nav {
+    width: 100%;
+    padding: 2rem;
+    height: 8rem;
+    display: flex;
+    position: fixed;
+    background-color: rgb(7, 135, 167);
+    align-items: center;
+    border-bottom: solid 1rem rgba(0, 0, 0, 0.925);
+    border-end-end-radius: 2rem;
+    border-end-start-radius: 2rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    list-style: none;
+    gap: 3.8rem;
+    font-size: 1.7rem;
+    color: rgb(140, 255, 249);
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul a:hover {
+    filter: brightness(0);
+    transition-delay: 0.1s;
+
+}
+
+.logo-image {
+    padding-right: 75rem;
+    margin-left: 3rem;
+}
+
+.img-fluid {
+    float: left;
+    width: 20rem;
+    height: 6rem;
+}
+
+#carrinho {
+    width: 5rem;
+    height: 5rem;
+
+}
+
+footer {
+    padding: 1rem;
+    height: 8rem;
+    background-color: rgb(7, 135, 167);
+    color: white;
+}
+
+/*---------------------------------------------------CSS-REGISTRO---------------------------------------------*/
+
+
+#header-registro {
+    height: 6rem;
+    display: flex;
+    flex-direction: column
+}
+
+
+.form-registro1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#header-registro {
+    display: flex;
+    justify-content: center;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 600;
+}
+
+#registro {
+    margin-top: 3rem;
+    padding: 5rem;
+    background: #e0e0e0d8;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    border-radius: 4rem;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+
+
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 0.1rem solid #b9b8b8e7;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+
+
+    color: #535971;
+
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.input-wrapper input {
+    margin-top: 1.5rem;
+    background: #FAFAFC;
+    border: 0.1rem solid #89899280;
+    height: 5.6rem;
+    width: 42rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #C1BCCC;
+}
+
+.input-wrapper input:hover {
+    border-color: black;
+}
+
+.input-wrapper input:invalid {
+    border: 1px solid red;
+}
+
+.input-wrapper label {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+label span {
+    color: rgba(95, 95, 95, 0.664);
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+#input-salvar {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    height: 5rem;
+    width: 35rem;
+    border: none;
+    color: white;
+    background-color: rgba(7, 162, 201, 0.781);
+    cursor: pointer;
+}
+
+
+
+footer h4 {
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+/*---------------------------------------------------CSS-LOGIN-------------------------------------------------*/
+
+#form-login {
+    background: #e0e0e0d8;
+    min-height: 300px;
+    border-radius: 4rem;
+    padding: 3rem;
+}
+
+.pag-login {
+    display: flex;
+    justify-content: center;
+    position: static;
+    padding: 4rem;
+}
+
+.inputs-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-login input {
+    width: 50rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.inputs-login input:invalid {
+    border: 1px solid red;
+}
+
+.pag-login label {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+
+}
+
+#h1-login {
+    line-height: 5rem;
+    width: 50rem;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    font-family: 'Antonio', sans-serif;
+
+}
+
+#banner-login {
+    width: 50rem;
+    margin-right: 8rem;
+    margin-top: 8rem;
+}
+
+.texto-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    border-radius: 4rem;
+    margin-right: 5rem;
+}
+
+#botao_login {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 10rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+#botao_login:hover {
+    opacity: 0.8;
+}
+
+/*---------------------------------------------------CSS INICIO-----------------------------------------------*/
+
+
+#searchbar {
+    height: 3rem;
+    padding: 3rem;
+    width: 100rem;
+    background-color: white;
+    border: 1rem rgb(0, 84, 117) solid;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.8rem;
+}
+
+.icon {
+    padding-right: 2.5rem;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 4rem;
+}
+
+.homepage {
+    display: flex;
+    justify-content: center;
+}
+
+.homepage header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.8rem;
+}
+
+#filter {
+    height: 3rem;
+    width: 3rem;
+    float: right;
+    margin-left: 1rem;
+    background: url("https://cdn-icons-png.flaticon.com/512/7699/7699100.png") no-repeat;
+    background-size: 3rem;
+    border: none;
+    cursor: pointer;
+    padding-left: 3rem;
+}
+
+.homepage section {
+    background-color: rgb(255, 255, 255);
+}
+
+.produtos {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.produto {
+    padding: 4rem;
+    font-family: 'Antonio', sans-serif;
+    color: white;
+
+}
+
+.produto a {
+    text-decoration: none;
+}
+
+.produto img {
+    border-radius: 4rem 4rem 0 0;
+    border: 2rem white solid;
+}
+
+#addtocarts {
+    border: none;
+}
+
+.produto #addtocarts:hover {
+    filter: brightness(0);
+}
+
+.desc-produto {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    background-color: rgb(7, 135, 167);
+    border-radius: 0 0 4rem 4rem;
+    border-top: 1rem;
+    height: 15rem;
+    color: black;
+
+}
+
+.desc-produto p {
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+#banner-inicio {
+    width: 95rem;
+    padding: 8rem;
+}
+
+/*---------------------------------------------------CSS CARRINHO---------------------------------------------*/
+
+#pag-carrinho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#secao-produtos-carrinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#secao-valor-total {
+    display: grid;
+    align-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+#produto-qntd {
+    display: grid;
+    justify-items: center;
+}
+
+.produto-carrinho {
+    border: 0.3rem solid rgb(221, 221, 221);
+    background-color: rgb(219, 217, 217);
+    border-radius: 3rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    width: 90rem;
+    gap: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.titulo-carrinho h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+.desc-carrinho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30rem;
+}
+
+.produto-carrinho img {
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-right: 1rem solid gray;
+}
+
+.produto-carrinho h3 {
+    font-weight: bold;
+    width: 2rem;
+    gap: 1rem;
+}
+
+#titulo-preco-carrinho {
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-preco-carrinho p {
+    margin-top: 11rem;
+    float: left;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.botoes-produto {
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.botoes-produto button:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+#secao-produtos-carrinho {
+    padding: 3rem;
+    gap: 5rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+#secao-valor-total {
+    width: 20rem;
+    gap: 2rem;
+    background-color: rgb(226, 224, 224);
+    padding: 1rem;
+    text-align: center;
+}
+
+#secao-valor-total h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3rem;
+
+}
+
+#secao-valor-total h5 {
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#secao-valor-total button {
+    width: 15rem;
+    height: 8rem;
+    background-color: rgb(4, 214, 4);
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+#secao-valor-total button:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+    text-shadow: black 0.1rem 0.1rem;
+}
+
+
+#botao-acrescentar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: gray;
+
+}
+
+#botao-acrescentar:focus {
+    color: black;
+}
+
+#botao-diminuir {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: gray;
+}
+
+#botao-diminuir:focus {
+    color: black;
+}
+
+#botao-excluir {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: red;
+}
+
+#botao-excluir:focus {
+    color: black;
+}
+
+#botao-voltar {
+    margin-top: 10rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    width: 20rem;
+    font-weight: bold;
+    height: 5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#botao-voltar:hover {
+    cursor: pointer;
+    background-color: rgb(189, 189, 189);
+}
+
+/*---------------------------------------------------CSS PRODUTO----------------------------------------------*/
+
+.header-produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.avaliacoes {
+    padding-top: 3rem;
+
+}
+
+
+.header-produto button {
+    border: none;
+    display: flex;
+    align-items: center;
+    border: 0.3rem rgb(241, 226, 14) solid;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+.header-produto button:hover {
+    cursor: pointer;
+    background-color: rgb(218, 218, 218);
+
+}
+
+.header-produto button:focus {
+    background-color: yellow;
+}
+
+.header-produto h2 {
+    width: 73rem;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 400;
+}
+
+.pag-produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.produto-descricao {
+    display: flex;
+    margin-top: 4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 45rem;
+
+    gap: 4rem;
+}
+
+.produto-descricao p {
+    font-size: 1.9rem;
+}
+
+#celular-produto {
+    width: 45rem;
+}
+
+.imagens-do-produto {
+
+    padding: 4rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.imagens-do-produto h2 {
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+}
+
+.imagens-do-produto button {
+    border: none;
+
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.imagens-do-produto button:hover {
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.botao-adicionar {
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: 0.2rem;
+    margin-top: 10rem;
+    background-color: rgb(218, 218, 218);
+    width: 40rem;
+    border: none;
+    border-radius: 1rem;
+    height: 4rem;
+}
+
+.botao-adicionar:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.mais-info {
+    margin-top: 8rem;
+}
+
+.mais-info h3 {
+    font-family: 'Antonio', sans-serif;
+    border-bottom: 0.1rem solid black;
+}
+
+.comentarios h3 {
+    font-family: 'Antonio', sans-serif;
+    font-weight: 400;
+
+}
+
+.comentarios {
+    margin-top: 8rem;
+}
+
+.comentarios h4 {
+    font-family: 'Antonio', sans-serif;
+
+}
+
+.comentarios h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.comentarios section {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(207, 207, 207);
+    width: 80rem;
+    padding: 1rem;
+    border-radius: 1rem 2rem
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-right: 0.3rem rgb(155, 155, 155) solid;
+    background-color: rgb(221, 221, 221);
+    gap: 3rem;
+    width: 18rem;
+    align-items: center;
+}
+
+.comentario {
+    display: grid;
+    align-content: space-around;
+    justify-items: end;
+}
+
+/*---------------------------------------------------CSS CONF-C ADASTRO----------------------------------------*/
+#pag-conf {
+    padding: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+#pag-conf button {
+    width: 100%;
+    height: 4rem;
+    cursor: pointer;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 3rem;
+}
+
+#pag-conf h3 {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#pag-conf button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 132, 255);
+    box-shadow: 0rem 0rem 2rem 0.8rem #000000a2;
+    transition: all 0.5s;
+}
+
+/*---------------------------------------------------CSS ADMIN----------------------------------------*/
+#nav-admin {
+    background-color: rgb(35, 0, 189);
+}
+
+
+.home-admin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home-admin button {
+    width: 25rem;
+    height: 5rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: 2rem
+}
+
+.home-admin button:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+    transition-delay: 19ms;
+}
+
+.home-admin table {
+    width: 100rem;
+    background-color: black;
+}
+
+.home-admin th {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    background-color: rgb(0, 75, 105);
+    color: white;
+}
+
+.home-admin tr {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+
+.tablezinha, .tablezinha2 {
+    text-align: center;
+}
+
+.home-admin h2 {
+    font-family: 'Antonio', sans-serif;
+    padding: 1rem;
+}
+
+#addProduto {
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    width: 23rem;
+}
+
+#botaoCliente {
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    width: 23rem;
+}

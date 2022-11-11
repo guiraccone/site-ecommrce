@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce - Admin</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600&family=Roboto+Mono&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<div id="admin">
+
+    <body>
+        <div class="navbar">
+            <nav id="nav-admin">
+                <div class="logo-image">
+                    <a class="navbar-brand" href="./homepage.html">
+                        <img src="./img/LOGO.png" class="img-fluid" alt="logo connect">
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="page">
+            <div class="home-admin">
+                <h1>Produtos Listados</h1>
+                <p>Esta pagina é usada para adicionar, editar e deletar produtos</p>
+                <div class="tablezinha">
+                    <h2>Relatório de Produtos</h2>
+                    <table id="myTable">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Tipo</th>
+                                <th>Preço</th>
+                                <th>Quantidade</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Computador</td>
+                                <td>Eletronicos</td>
+                                <td>R$355</td>
+                                <td>44 un</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <button id="addProduto" onclick="addProduto()">Adicionar Produto</button>
+
+
+                <div class="tablezinha2">
+                    <h2>Relatório de Clientes</h2>
+                    <table id="myTable2">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>CPF</th>
+                                <th>Sexo</th>
+                                <th>Saldo</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Guilherme</td>
+                                <td>12345678911</td>
+                                <td>Masculino</td>
+                                <td>R$444</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <button id="botaoCliente" onclick="showClients()">Adicionar Cliente</button>
+
+                <div class="adm-voltar">
+                    <a href="./homepage.html">
+                        <button>Voltar</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="admin.js"></script>
+    </body>
+</div>
+
+</html>
