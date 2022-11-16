@@ -399,6 +399,8 @@ header h3 {
 #produto-qntd {
     display: grid;
     justify-items: center;
+    background-color: white;
+    border-radius: 3rem;
 }
 
 .produto-carrinho {
@@ -514,6 +516,9 @@ header h3 {
     border-radius: 1rem;
     cursor: pointer;
     color: gray;
+    font-size: 2rem;
+
+    border: none;
 
 }
 
@@ -526,6 +531,9 @@ header h3 {
     height: 3rem;
     border-radius: 1rem;
     cursor: pointer;
+    font-size: 2rem;
+
+    border: none;
     color: gray;
 }
 
@@ -534,8 +542,10 @@ header h3 {
 }
 
 #botao-excluir {
+    border: none;
     width: 3rem;
     height: 3rem;
+    font-size: 2rem;
     border-radius: 1rem;
     cursor: pointer;
     color: red;
@@ -630,6 +640,7 @@ header h3 {
 
 #celular-produto {
     width: 45rem;
+    border: 3rem solid white;
 }
 
 .imagens-do-produto {
